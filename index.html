@@ -548,8 +548,8 @@
                         <div className="fixed inset-0 bg-black/80 flex items-center justify-center p-4 z-50">
                             <div className="bg-slate-800 p-6 rounded-2xl w-full max-w-sm border border-slate-600">
                                 <div className="flex justify-between mb-4"><h3 className="text-xl font-bold">Admin</h3><button onClick={() => setShowAdminLogin(false)}><X/></button></div>
-                                <input type="password" value={adminPwd} onChange={e=>setAdminPwd(e.target.value)} placeholder="Mot de passe (voly)" className="w-full bg-slate-900 border border-slate-600 rounded-xl px-4 py-3 mb-4 text-white" />
-                                <button onClick={() => {if(adminPwd==='voly'){setIsAdmin(true);setShowAdminLogin(false);setAdminPwd('');}}} className="w-full bg-blue-600 py-3 rounded-xl font-bold">Valider</button>
+                                <input type="password" value={adminPwd} onChange={e=>setAdminPwd(e.target.value)} placeholder="Mot de passe" className="w-full bg-slate-900 border border-slate-600 rounded-xl px-4 py-3 mb-4 text-white" />
+                                <button onClick={() => {if(adminPwd==='Hussein180690'){setIsAdmin(true);setShowAdminLogin(false);setAdminPwd('');}}} className="w-full bg-blue-600 py-3 rounded-xl font-bold">Valider</button>
                             </div>
                         </div>
                     )}
